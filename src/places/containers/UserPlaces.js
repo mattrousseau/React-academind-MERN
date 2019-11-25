@@ -12,7 +12,7 @@ const DUMMY_PLACES = [
     description: 'Main venue to visit in Paris',
     address: 'Place Jacques Rueff, 75007 Paris, France',
     creator: 'u1',
-    location: { lat: 48.8584, lng: 2.2945 }
+    location: { lng: 48.8584, lat: 2.2945 }
   },
   {
     id: 'p2',
@@ -22,7 +22,7 @@ const DUMMY_PLACES = [
     description: 'Main venue to visit in NY',
     address: 'New York, New York 10004, USA',
     creator: 'u1',
-    location: { lat: 40.6892, lng: 74.044 }
+    location: { lat: -74.0445, lng: 40.6892 }
   },
   {
     id: 'p3',
@@ -32,7 +32,7 @@ const DUMMY_PLACES = [
     description: 'Main venue to visit in NY',
     address: 'New York, New York 10004, USA',
     creator: 'u2',
-    location: { lat: 40.6892, lng: 74.044 }
+    location: { lat: -74.0445, lng: 40.6892 }
   }
 ];
 
