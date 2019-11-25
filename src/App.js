@@ -10,6 +10,7 @@ import Users from './users/containers/Users';
 import NewPlace from './places/containers/NewPlace';
 import UserPlaces from './places/containers/UserPlaces';
 import MainNavigation from './shared/components/Navigation/MainNavigation';
+import UpdatePlace from './places/containers/UpdatePlace';
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
           </Route>
           <Route path="/places/new" exact>
             <NewPlace />
+          </Route>
+          <Route path="/place/:placeId" exact>
+            <UpdatePlace />
           </Route>
           <Route path="/:userId/places" exact>
             <UserPlaces />
