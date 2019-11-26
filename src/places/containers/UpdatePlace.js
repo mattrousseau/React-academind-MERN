@@ -81,12 +81,10 @@ const UpdatePlace = props => {
       );
     }
     setIsLoading(false);
-    console.log('formState', formState);
   }, [place, setFormData]);
 
   const placeUpdateSubmitHandler = event => {
     event.preventDefault();
-    console.log('formState.inputs', formState.inputs);
   };
 
   if (!place) {
